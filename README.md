@@ -8,7 +8,18 @@ This repository contains scripts and source files for running a calculation of t
 2. A Fortran compiler. These scripts assume you have one available as `ftn`.
 3. SLURM workload manager for batch job submission.
 
-## Setup and Running
+### 0. Setup and Running
+
+To get started, clone the repository to your local machine and enter the directory:
+
+git clone https://github.com/ashbre0/HARDY.git
+cd HARDY
+
+To make changes to the source code, update the relevant files and then execute:
+
+git add .
+git commit -m "Your descriptive message about the changes"
+git push
 
 ### 1. Install PARI Library
 
