@@ -12,14 +12,14 @@ This repository contains scripts and source files for running a calculation of t
 
 To get started, clone the repository to your local machine and enter the directory:
 
-git clone https://github.com/ashbre0/HARDY.git
-cd HARDY
+- git clone https://github.com/ashbre0/HARDY.git
+- cd HARDY
 
 To make changes to the source code, update the relevant files and then execute:
 
-git add .
-git commit -m "Your descriptive message about the changes"
-git push
+- git add .
+- git commit -m "Your descriptive message about the changes"
+- git push
 
 ### 1. Install PARI Library
 
