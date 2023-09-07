@@ -1,0 +1,11 @@
+# Ignore everything
+*
+
+# But don't ignore these file types
+!*.sh
+!*.pbs
+!*.f90
+
+# Also, do not ignore the .gitignore file itself (optional, but good practice)
+!.gitignore
+
