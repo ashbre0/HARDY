@@ -19,13 +19,15 @@ Run the `install_pari.sh` script. This script will:
 
 bash install_pari.sh
 
-2. Compile the Fortran Code
+### 2. Compile the Fortran Code
+
 Once PARI is installed, you can compile the Fortran program using:
 
 bash compile.sh
 
 
-3. Submit the Job to SLURM
+### 3. Submit the Job to SLURM
+
 Before submitting, you need to ensure that the SLURM account in zeta.pbs matches your available SLURM account. To check your available account, run:
 
 sacctmgr show assoc where user=$LOGNAME format=user,Account%12,MaxTRESMins,QOS%40
