@@ -5,6 +5,7 @@
 !*.sh
 !*.pbs
 !*.f90
+!*.md
 
 # Also, do not ignore the .gitignore file itself (optional, but good practice)
 !.gitignore
