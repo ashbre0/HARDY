@@ -37,7 +37,14 @@ Once PARI is installed, you can compile the Fortran program using:
 bash compile.sh
 
 
-### 3. Submit the Job to SLURM
+### 3. Run a quick test
+
+Make sure it works (use ctrl+c to exit after the first iblock shows up):
+
+bash run_test.sh
+
+
+### 4. Submit the Job to SLURM
 
 Before submitting, you need to ensure that the SLURM account in zeta.pbs matches your available SLURM account. To check your available account, run:
 
