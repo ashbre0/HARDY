@@ -1,6 +1,6 @@
 # Zeta Calculation using PARI
 
-This repository contains scripts and source files for running a calculation of the Zeta function using the PARI library.
+This repository contains scripts and source files for running a calculation of the Zeta function using the [PARI library](https://pari.math.u-bordeaux.fr/).
 
 ## Prerequisites
 
@@ -24,6 +24,7 @@ git add .
 git commit -m "Your descriptive message about the changes"
 git push
 ```
+Note that `git add .` will add all modified files to the commit in the git directory and subdirectories so be careful using this command for unwanted consequences. It is better to explicitly add the files that you want to be added to the commit: `git add file1 file2 dir/file3 ...`, etc.
 
 ### 1. Install PARI Library
 
