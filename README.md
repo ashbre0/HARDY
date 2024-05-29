@@ -24,7 +24,10 @@ git add .
 git commit -m "Your descriptive message about the changes"
 git push
 ```
-Note that `git add .` will add all modified files to the commit in the git directory and subdirectories so be careful using this command for unwanted consequences. It is better to explicitly add the files that you want to be added to the commit: `git add file1 file2 dir/file3 ...`, etc.
+**Note**
+
+* `git add .` will add all modified files to the commit in the git directory and subdirectories so be careful using this command for unwanted consequences. It is better to explicitly add the files that you want to be added to the commit: `git add file1 file2 dir/file3 ...`, etc. 
+* You can find what files have changed in your repository by using `git status` and explicitly add only those files that you want in the repository.
 
 ### 1. Install PARI Library
 
@@ -80,5 +83,7 @@ File Descriptions:
 
 **Note**: The SLURM script will also check for the existence of a file named `zeta14v3resa` before executing the program. If the file does not exist, it will be created.
 
-Acknowledgments
-PARI/GP - For providing the library used in this calculation
+**Acknowledgments**
+
+* Part of this work was performed with funding from the embedded CSE programme of the [ARCHER2 UK National Supercomputing Service](https://www.archer2.ac.uk/).
+* [PARI/GP](https://pari.math.u-bordeaux.fr) - For providing the library used in this calculation.
